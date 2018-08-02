@@ -1,9 +1,9 @@
 #![feature(rust_2018_preview)]
+#![feature(proc_macro_path_invoc)]
+#![warn(rust_2018_idioms)]
 
-#[macro_use] extern crate quicli;
-use quicli::prelude::*;
+use quicli::prelude::structopt::StructOpt;
 
-// Add cool slogan for your app here, e.g.:
 /// Get first n lines of a file
 #[derive(Debug, StructOpt)]
 struct Cli {
