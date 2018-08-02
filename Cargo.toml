@@ -8,4 +8,4 @@ edition = "2018"
 
 [dependencies]
 quicli = "0.3.0"
-# structopt = "0.2.10"
+structopt = "0.2.10"
