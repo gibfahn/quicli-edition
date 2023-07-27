@@ -1,11 +1,10 @@
-cargo-features = ["edition"]
-
 [package]
 name = "quicli-edition"
 version = "0.1.0"
 authors = ["Gibson Fahnestock <gibfahn@gmail.com>"]
-edition = "2018"
+# edition = "2018"
+edition = "2021"
 
 [dependencies]
 quicli = "0.3.0"
-structopt = "0.2.10"
+# structopt = "0.2.10"
